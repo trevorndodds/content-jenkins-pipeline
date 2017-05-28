@@ -1,5 +1,7 @@
 pipeline {
- 	agent centos6
+ 	agent {
+	 label 'centos6'
+	}
  		stages {
  			stage('build') {
  				steps {
