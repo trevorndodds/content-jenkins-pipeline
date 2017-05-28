@@ -1,5 +1,5 @@
 pipeline {
- 	agent any
+ 	agent centos6
  		stages {
  			stage('build') {
  				steps {
